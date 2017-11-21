@@ -53,4 +53,7 @@ $files = new Files(false,__DIR__,['txt','jpg','png'],2097152);
   <li>
     <code>upload ($file, $dir = null)</code> : Upload a file to said directory, <code>$file</code> being a form file, and <code>$dir</code> being the directory to upload the file to. Returns a <code>File</code> object
   </li>
+  <li>
+    <code>getAll ($dir = null)</code> : Get all files in <code>$dir</code>
+  </li>
 </ul>
